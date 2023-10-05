@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA STRUCTURES PROBLEMS</title>
+    <style>
+    body{
+        margin-top: 1vh;
+        margin-left: 30vw;
+    }
+    div{
+        
+        width: 50vb;
+        height: 60vh;
+        border:  solid black;
+    }
+
+    </style>
+</head>
+<body>
+    <header><h1>Write code of x<sup>y</sup></h1></header>
+    <p>example:</p>
+    <span>let's assume x=2 and y=3</span>
+    <span>output: 2<sup>3</sup>=8;</span>
+    <p><B>Explanation: use while loop that is execute y times</B></p>
+    <div class="square">
+        <p>#include // stdio.h</p>
+        <p>int main()</p>
+        <p>{<br>
+            int x,y,j,t;<br>
+            printf("enter the value of x:"); <br>
+            scanf("%d",&x);<br>
+            printf("enter the value of y:");<br>
+            scanf("%d",&y);<br>
+            j=1;<br>
+            t=y;<br>
+            while(t!=0) <br>
+            {<br>
+                j=j*x;<br>
+                t--;<br>
+            } <br>
+            printf("%d^%d:%d",x,y,j);<br>
+            return 0;<br>
+        } <br>
+        </p>
+
+    </div>
+    
+</body>
+</html>
